@@ -1,0 +1,361 @@
+Prompt,Response
+"Urgent! There's been a collision on Kent Road near the junction with Buckley Road. The incident happened like 3 minutes ago. Two vehicles collided head-on, causing significant damage and injuries. I see a lamp post with number 123456","<Location>Kent Road
+<Prominent Landmarks>junction with Buckley Road.
+<Expressway>
+<Nearby Lamp post numbers>123456.0
+<Casualties>Some injuries
+<Nature of traffic accident>Head-on collision
+<Hazards or Obstructions>
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>Some injuries"
+"A motorcyclist has crashed on Shrewsbury Road near the intersection with Jalan Korma. I see a big shopping mall opposite.  The incident happened 5 minutes ago. The rider is lying unconscious on the road, and traffic is backing up. I tried doing CPR but its not working!! Please send emergency services right away.","<Location>Shrewsbury Road
+<Prominent Landmarks>intersection with Jalan Korma, big shopping mall
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>Rider unconscious
+<Nature of traffic accident>Motorcycle crash
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>1 Motorcycle
+<Any actions taken by bystanders>Performed CPR on victim
+<State of occupants>Rider unconscious"
+"There's been a rear-end collision on Sinaran Drive near the junction with Moullmein Rise. It happened around 10 Am. I think the front driver is stuck! And the vehicle is on fire! We need ambulances and fire trucks immediately.""","<Location>Sinaran Drive
+<Prominent Landmarks>junction with Moullmein Rise
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>Some injuries
+<Nature of traffic accident>Rear-end collision
+<Hazards or Obstructions>Front driver stuck in vehicle, car on fire, potential explosion
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>Front driver stuck in vehicle"
+"Hello, I need to report a car rollover on Lembu Road near the junction with Desker Road. It's approximately 10 minutes ago as I was passing by. The vehicle is overturned, and the driver is trapped inside. I tried opening the door but I couldn't.  I see a lampost with number 246438. We need rescue teams and medical assistance urgently.""","<Location>Lembu Road
+<Prominent Landmarks>junction with Desker Road
+<Expressway>
+<Nearby Lamp post numbers>246438.0
+<Casualties>Potential injuries
+<Nature of traffic accident>Car rollover
+<Hazards or Obstructions>Driver trapped inside
+<Vehicles involved>1 car
+<Any actions taken by bystanders>Tried opening the door but to no avail
+<State of occupants>Driver trapped inside"
+"Emergency services, there's been a sideswipe collision on Verdun Road near the junction with Syed Alwi Road. I think it happened at like 4:45pm. No casualities but the two drivers are aruguing of those fault it is. Both vehicles are blocking the road. We need tow trucks and traffic control right away.""","<Location>Verdun Road
+<Prominent Landmarks>junction with Syed Alwi Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>Sideswipe colision
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>"
+"Urgent! A delivery truck has crashed into a barrier on Orchard Spring Lane near the junction with Kay Siang Road. The incident happened 10 minutes ago. The driver is injured, and the truck is blocking traffic. We need medical assistance and traffic diversions immediately.""","<Location>Orchard Spring Lane
+<Prominent Landmarks>near the junction with Kay Siang Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>Driver injured
+<Nature of traffic accident>Delivery truck crash into barrier
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>1 delivery truck
+<Any actions taken by bystanders>
+<State of occupants>driver injured"
+"Help! A taxi has collided with a pedestrian on Martaban Road near the junction with Jalan Tan Tock Seng. It just happened. Landpost number 345678. The pedestrian is injured and I performed basic first aid to stop his bleeding, and traffic is at a standstill. Please send emergency services right away. It's raining and we cant rlly see properly!""","<Location>Martaban Road
+<Prominent Landmarks>near junction with Jalan Tan Tock Seng
+<Expressway>
+<Nearby Lamp post numbers>345678.0
+<Casualties>Pedestrain injured
+<Nature of traffic accident>Collision with pedestrain
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>1 taxi
+<Any actions taken by bystanders>Performed first aid to stop bleeding
+<State of occupants>Pedestrain injured"
+"Emergency, emergency! A bus has rear-ended a car on Sophia Road near the junction with Muscat Street. Passengers on the bus are reporting injuries, and there's significant damage to both vehicles. We need ambulances and tow trucks immediately.""","<Location>Sophia Road
+<Prominent Landmarks>junction with Muscat Street
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>bus passengers suffer minor injuries
+<Nature of traffic accident>Rear-end collision
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>bus passengers suffer minor injuries"
+"Hello, I need to report a multi-vehicle collision on Pan Island Expressway (PIE) near the exit to Amber Road. Several cars are involved, and there are reports of casualties. We need emergency services and traffic control urgently.""","<Location>PIE
+<Prominent Landmarks>near exit to Amber Road
+<Expressway>PIE
+<Nearby Lamp post numbers>
+<Casualties>Potential injuries
+<Nature of traffic accident>Multi-vehicle collision
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>Multiple cars
+<Any actions taken by bystanders>
+<State of occupants>potential injuries"
+"Emergency services, there's been a motorcycle crash on Ang Mo Kio Avenue 4 near block 256. The rider is lying injured on the road, and traffic is slowing down. We need medical assistance and traffic management right away.""","<Location>Ang Mo Kio Avenue 4
+<Prominent Landmarks>Block 256
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>Rider unconscious
+<Nature of traffic accident>Motorcycle crash
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>1 Motocycle
+<Any actions taken by bystanders>
+<State of occupants>Rider unconscious"
+"Urgent! A pedestrian has been hit by a car on Tomlinson Road near the junction with Telok Blangah Heights. The victim is seriously injured, got alot of blood coming out from the head. We need ambulances and police assistance immediately.""","<Location>Tomlinson Road
+<Prominent Landmarks>junction with Telok Blangah
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>Pedestrain heavily injured on the head
+<Nature of traffic accident>Collision with pedestrain
+<Hazards or Obstructions>
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>Pedestrain injured"
+"Help! There's been a vehicle fire on Wilkinson Road near the junction with Wilkie Road. The fire is spreading rapidly, and there's a risk of explosion. Please send fire services and traffic control urgently.""","<Location>Wilkinson Road
+<Prominent Landmarks>junction with Wilkie Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>Vehicle fire
+<Hazards or Obstructions>Fire spreading
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>"
+" truck has overturned on Camp Road near the junction with Lengkok Merak. The truck is blocking the road, and there's spilled cargo. We need rescue teams and tow trucks immediately.""","<Location>Camp Road
+<Prominent Landmarks>junction with Lengkok Merak
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>Truck overturn
+<Hazards or Obstructions>Spilled cargo and causing congestion
+<Vehicles involved>1 truck
+<Any actions taken by bystanders>
+<State of occupants>"
+"Hello, I need to report a hit-and-run on Tanglin Walk near the junction with Tanglin Hill. A pedestrian was struck by a speeding vehicle, and the driver fled the scene. We need medical assistance. I see a lampost with number 249999","<Location>Tanglin Walk
+<Prominent Landmarks>junction with Tanglin Hill
+<Expressway>
+<Nearby Lamp post numbers>249999.0
+<Casualties>pedestrain injured
+<Nature of traffic accident>hit-and-run
+<Hazards or Obstructions>
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>Pedestrain injured"
+"Emergency services, there's been a head-on collision on Adis Road near the junction with Kramat Road. Both drivers are injured, and there's debris scattered across the road. We need ambulances and tow trucks right away.""","<Location>Adis Road
+<Prominent Landmarks>near junction with Kramat road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>both drivers injured
+<Nature of traffic accident>Head-on collision
+<Hazards or Obstructions>debris scattered on the road, causing congestion
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>both drivers injured"
+"Urgent! A cyclist has been hit by a car on Akyab Road near the junction with Oxford Road. The cyclist is unconscious, and the driver is cooperating with authorities. We need medical assistance and traffic management immediately.""","<Location>Akyab Road
+<Prominent Landmarks>near junction with Oxford Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>cyclist unconscious
+<Nature of traffic accident>Collision with cyclist
+<Hazards or Obstructions>
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>cyclist unconscious"
+"17. ""Help! There's been a collision between a taxi and a van on Kempas Road near the junction with Stevens Road. Both drivers are reporting injuries, and there's significant damage to both vehicles. Please send ambulances and tow trucks urgently.""","<Location>Kempas Road
+<Prominent Landmarks>near the junction with Stevens Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>both drivers injured
+<Nature of traffic accident>Collision between taxi and van
+<Hazards or Obstructions>
+<Vehicles involved>1 taxi, 1 van
+<Any actions taken by bystanders>
+<State of occupants>both drivers injured"
+"""Emergency, emergency! A motorcyclist has crashed into a barrier on Ardmore Park near the junction with Anthony Road. The rider is injured, and the motorcycle is blocking traffic. We need medical assistance and traffic diversions right away.""","<Location>Ardmore Park
+<Prominent Landmarks>junction with Anthony Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>Rider injured
+<Nature of traffic accident>Motorcycle crash
+<Hazards or Obstructions>Causing congestion
+<Vehicles involved>1 motorcycle
+<Any actions taken by bystanders>
+<State of occupants>motocyclist injured"
+"Hello, I need to report a rear-end collision on Cairnhill Road near the junction with Ang Mo Kio Avenue 8. Both drivers are reporting minor injuries, and there's damage to both vehicles. We need medical assistance and traffic control urgently.""","<Location>Cairnhill Road
+<Prominent Landmarks>junction with Ang Mo Kio Avenue 8
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>both drivers suffer minor injuries
+<Nature of traffic accident>Rear-end collision
+<Hazards or Obstructions>
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>both drivers minor injuries"
+"Emergency services, there's been a sideswipe collision on Dorset Road near the junction with Ang Mo Kio Avenue 9. Both vehicles are blocking the road, and there's a fuel leak. We need tow trucks and hazardous materials cleanup immediately.""","<Location>Dorset Road
+<Prominent Landmarks>junction with Ang Mo Kio Avenue 9
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>Sideswipe colision
+<Hazards or Obstructions>Vehicles blocking road and fuel leak
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>"
+"Urgent! A car has crashed into a traffic light pole on Norfolk Road near the junction with Nassim Road.The pole is leaning dangerously, and there's a risk of it falling onto passing vehicles. We need emergency services and utility technicians immediately.""","<Location>Norfolk Road
+<Prominent Landmarks>junction with Nassim road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>Crash into traffic light pole
+<Hazards or Obstructions>pole is leaning and could potenially fall onto passing vehicles
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>"
+"Help! There's been a collision between a bus and a taxi on Balmoral Park near the junction with Petain Road. Passengers on the bus are reporting injuries, and the taxi driver is trapped inside. Please send ambul","<Location>Balmoral Park
+<Prominent Landmarks>junction with Petain Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>bus passengers suffer minor injuries
+<Nature of traffic accident>Bus collision with taxi
+<Hazards or Obstructions>
+<Vehicles involved>1 bus, 1 taxi
+<Any actions taken by bystanders>
+<State of occupants>bus passengers suffer minor injuries"
+"Emergency, emergency! A truck has collided with a pedestrian bridge on Balmoral Road near the junction with Kampong Java Road. I think it happened like 15 minutes ago.The bridge is damaged, and there are reports of pedestrians trapped underneath. We need rescue teams and medical assistance right away.""","<Location>Balmoral Road
+<Prominent Landmarks>junction with Kampong Java Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>pedestrain trapped under bridge
+<Nature of traffic accident>truck collision with pedestrain bridge
+<Hazards or Obstructions>bridge damanged, pedestrain trapped underneath
+<Vehicles involved>1 truck
+<Any actions taken by bystanders>
+<State of occupants>Pedestrain trapped and likely injured"
+"Hello, I need to report a rear-end collision on Race Course Road near the junction with Lorong 3 Geylang. Both drivers are reporting neck pain, and there's damage to both vehicles. We need medical assistance and traffic control urgently.""","<Location>Race Course Road
+<Prominent Landmarks>junction with Lorong 3 Geylang
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>both drivers suffer neck injuries
+<Nature of traffic accident>Rear-end collision
+<Hazards or Obstructions>
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>both drivers suffer neck injuries"
+"Emergency services, there's been a collision between a motorcycle and a car on Goodwood Hill near the junction with Rutland Road. Both parties are injured, and there's debris scattered across the road. We need ambulances and tow trucks right away.""","<Location>Goodwood Hill
+<Prominent Landmarks>junction near Rutland Road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>both parties injured
+<Nature of traffic accident>collision between motorcycle and car
+<Hazards or Obstructions>debris scattered on the road, causing congestion
+<Vehicles involved>1 car, 1 motorcycle
+<Any actions taken by bystanders>
+<State of occupants>both parties injured"
+A delivery truck has crashed into a building on Ophir Road near the junction with Raffles Boulevard. The driver is still trapped inside the vehicle.,"<Location>Ophir Road
+<Prominent Landmarks>junction with Raffles Boulevard
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>truck driver trapped in vehicle
+<Nature of traffic accident>crashed into building
+<Hazards or Obstructions>
+<Vehicles involved>1 truck
+<Any actions taken by bystanders>
+<State of occupants>Driver trapped inside"
+"A taxi has collided with a motorcyclist on Walshe Road near the junction with Fernhill Crescent. Both parties are injured, and there's debris scattered across the road. We need medical assistance and traffic management right away.""","<Location>Fernhill Crescent
+<Prominent Landmarks>
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>2
+<Nature of traffic accident>Collision with Motorcycles
+<Hazards or Obstructions>Debris on road
+<Vehicles involved>1 car and 1 motorcycle
+<Any actions taken by bystanders>
+<State of occupants>both parties injured"
+"Help! There's been a collision between two taxis on Mandalay Road near the junction with Onan Road. Both drivers are reporting injuries, and there's significant damage to both vehicles. Please send ambulances and tow trucks urgently.""","<Location>Mandalay Road
+<Prominent Landmarks>
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>2 Drivers
+<Nature of traffic accident>Collision
+<Hazards or Obstructions>Damaged vehicles
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>2 drivers injured"
+"A car has crashed into a bus stop on Irrawaddy Road near the junction with Balestier Road. I think it happened 10 minutes ago. Passengers waiting at the bus stop are injured, and there's significant damage to the structure. We need medical assistance and traffic control right away.""","<Location>Irrawaddy Road near the junction with Balestier Road
+<Prominent Landmarks>
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>multiple passengers
+<Nature of traffic accident>car crashed into bus stop
+<Hazards or Obstructions>Damaged vehicles
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>multiple passengers injured"
+"Hello, I need to report a sideswipe collision on Thomson Road near the junction with Caldecott Hill. Both drivers are reporting minor injuries, and there's damage to both vehicles. We need medical assistance and traffic control urgently.""","<Location>Thomson Road near the junction with Caldecott Hill
+<Prominent Landmarks>
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>2 drivers minor injuries
+<Nature of traffic accident>Sideswept collision
+<Hazards or Obstructions>Damaged vehicles
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>2 drivers minor injuries"
+there's been a collision between a car and a pedestrian on Owen Road near the junction with Rangoon Road. The pedestrian is injured. the car hit the pedestrain a little and swerved to knock into a lamppost. Driver condition is uncertain as he is still in the car and I cant see him.,"<Location>Owen Road near the junction with Rangoon Road
+<Prominent Landmarks>
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>2
+<Nature of traffic accident>Collision with Pedestrain
+<Hazards or Obstructions>
+<Vehicles involved>1 car
+<Any actions taken by bystanders>
+<State of occupants>pedestrain injured, driver uncertain"
+Accident between tipper truck and car at SLE. Somewhere near yishun. Tipper truck toppled. Car is wrecked. Both drivers are okay and are away from their vehicles. Not sure if they have any injuries though,"<Location>SLE
+<Prominent Landmarks>
+<Expressway>SLE
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>
+<Hazards or Obstructions>Tipper truck
+<Vehicles involved>Tipper truck and car
+<Any actions taken by bystanders>
+<State of occupants>"
+Trailer on fire at BKE towards Woodlands,"<Location>BKE towards Woodlands
+<Prominent Landmarks>
+<Expressway>BKE
+<Nearby Lamp post numbers>
+<Casualties>
+<Nature of traffic accident>
+<Hazards or Obstructions>Trailer on fire
+<Vehicles involved>Trailer
+<Any actions taken by bystanders>
+<State of occupants>"
+"At Lentor Road, a Porsche driver changing lane from first lane to second lane of expressway and hit a motorcyclist with pillion. After stopping he open the door and hit another motorcyclist. 1 motorcyclist unconscious and 2 are still conscious","<Location>Lentor Road
+<Prominent Landmarks>
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>3
+<Nature of traffic accident>Collision with Motorcycles
+<Hazards or Obstructions>
+<Vehicles involved>1 car, 2 motorcycles
+<Any actions taken by bystanders>
+<State of occupants>1 unconscious, 2 conscious"
+"Along Scotts road before Orchard Blvd, I was travelling in my lane and wanted to make a turn, S88Y turned too early and encroached into my lane and hit onto my front and left portion of my vehicle. I now am suffering from neck pain and im not sure about the condition of the other driver","<Location>Scotts Road
+<Prominent Landmarks>before Orchard Blvd
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>2
+<Nature of traffic accident>Rear end collision
+<Hazards or Obstructions>
+<Vehicles involved>2 cars
+<Any actions taken by bystanders>
+<State of occupants>1 conscious, another unsure"
+"There's been a devastating accident on Serangoon Road near the junction with Balestier Road. i think is on both lane 1 and 2. A tipper truck carrying cement has toppled over onto a taxi, with two people trapped inside. The cement is blocking the entire road, creating a whole line of congestion. Some people manage to drag the truck driver out and are currently providing him with basic first aid","<Location>Serangoon Road
+<Prominent Landmarks>near junction with balestier road
+<Expressway>
+<Nearby Lamp post numbers>
+<Casualties>3
+<Nature of traffic accident>
+<Hazards or Obstructions>Cement truck blocking the road
+<Vehicles involved>taxi, cement truck
+<Any actions taken by bystanders>first aid provided to truck driver
+<State of occupants>some casualties stuck in taxi"
