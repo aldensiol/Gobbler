@@ -26,14 +26,8 @@ Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
 3. Enter your prompt.
 4. Once you are done, type "exit" to quit the application.
 
-An example of a prompt is:
-
-
-
-
-
-
-
+An example of a prompt is: 
+A severe explosion has occurred at the junction of Solaris Avenue and Meteor Street, near the historic Galaxy Observatory. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
 
 ## How to Use the Model as an External User
 
