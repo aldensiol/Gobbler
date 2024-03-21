@@ -18,7 +18,7 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 
 
 ## How to Use Noah?
-Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
+Simply click on this <a href="https://huggingface.co/Zqbot1/Noah/tree/main">link</a>
  to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
 
 1. Unzip Noah.zip.
