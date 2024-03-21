@@ -6,6 +6,22 @@
 
 Anastasia Goh, Alden Sio, Dylan Lo, Li Shuyao, Xu Ziqi, Zhu Yi Cheng
 
+# Introduction to Noah
+Noah is an AI-powered call-operator assistant designed to monitor and analyze conversations between call operators and callers. It specializes in extracting crucial accident information such as location, casualties, and accident details from these calls. Noah organizes this information into a structured format for call operators, highlighting any missing details and prompting relevant questions. 
+
+Additionally, Noah utilizes natural language processing (NLP) and machine learning to assess accident severity and provide recommendations for incident response, facilitating quicker and more informed emergency responses. Furthermore, Noah can extract location data from calls to provide information about the nearest hospitals and police stations, including estimated travel times, enabling swift and appropriate action during emergencies.
+
+## How to Use Noah?
+Simply click on this link to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
+
+1. 
+
+
+
+
+
+
+
 ## How to Use the Model as an External User
 
 As an external user, leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
