@@ -4,7 +4,7 @@
 
 # Contributors
 
-Anastasia Goh, Alden Sio, Dylan Lo, Li Shuyao, Xu Ziqi, Zhu Yi Cheng
+Anastasia Goh, Alden Sio, Lo Jingjie (Dylan), Li Shuyao, Xu Ziqi, Zhu Yi Cheng
 
 # Introduction to Noah
 <p align = "center">
