@@ -1,4 +1,4 @@
-# NCS-Winner-Club
+# NCS-Team Gobblers
 
 # As part of NUS-NCS Innovation Hackathon, 2024
 
@@ -7,9 +7,15 @@
 Anastasia Goh, Alden Sio, Dylan Lo, Li Shuyao, Xu Ziqi, Zhu Yi Cheng
 
 # Introduction to Noah
+<p align = "center">
+<img width="476" alt="Screenshot 2024-03-21 at 22 51 48" src="https://github.com/aldensiol/NCS-Winner-Club/assets/124263084/febe9359-d0c6-4ae0-91ed-0e3ac94514ff">
+</p>
 Noah is an AI-powered call-operator assistant designed to monitor and analyze conversations between call operators and callers. It specializes in extracting crucial accident information such as location, casualties, and accident details from these calls. Noah organizes this information into a structured format for call operators, highlighting any missing details and prompting relevant questions. 
-
+<br></br>
 Additionally, Noah utilizes natural language processing (NLP) and machine learning to assess accident severity and provide recommendations for incident response, facilitating quicker and more informed emergency responses. Furthermore, Noah can extract location data from calls to provide information about the nearest hospitals and police stations, including estimated travel times, enabling swift and appropriate action during emergencies.
+
+
+
 
 ## How to Use Noah?
 Simply click on this link to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
