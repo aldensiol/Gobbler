@@ -18,9 +18,16 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 
 
 ## How to Use Noah?
-Simply click on this link to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
+Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
+ to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
 
-1. 
+1. Unzip Noah.zip.
+2. Run the final.exe. (If there are any warnings, select "Run anyway".)
+3. Enter your prompt.
+4. Once you are done, type "exit" to quit the application.
+
+An example of a prompt is:
+
 
 
 
