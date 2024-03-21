@@ -18,7 +18,7 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 
 
 ## How to Use Noah?
-Simply click on this <a href="https://huggingface.co/Zqbot1/Noah/tree/main">link</a>
+Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
  to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
 
 1. Unzip Noah.zip.
@@ -27,7 +27,7 @@ Simply click on this <a href="https://huggingface.co/Zqbot1/Noah/tree/main">link
 4. Once you are done, type "exit" to quit the application.
 
 An example of a prompt is: 
-A severe explosion has occurred at the junction of Solaris Avenue and Meteor Street, near the historic Galaxy Observatory. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
+A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
 
 ## How to Use the Model as an External User
 
@@ -130,3 +130,45 @@ answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
 ```
 Once we have obtained our extracted entities, we use these to prompt for specific instructions to be distributed to relevant authorities -- helping in effectively managing this given incident.
 
+# Guide to Generating Recommendations from Mistral-7B-Instruct-v0.2-GGUF
+For the generation of recommendations and instructions to call operators, we made use of the open sourced model Mistral-7B-Instruct-v0.2-GGUF, which is a open source LLM Model trained to respond to Instructions (hence the Instruct in its name).
+
+## 1. Downloading of Mistral-7B-Instruct-v0.2-GGUF
+We first download the entire model from Hugging Face. https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+
+## 2. Initialising of Model
+Ensuring that the downloaded GGUF model is in the same directory as the script.py file, we initialise the model using a external library - ctransformers.
+
+```python
+from ctransformers import AutoModelForCausalLM
+
+# Initialise LLM Model
+llm = AutoModelForCausalLM.from_pretrained("mistral-7b-instruct-v0.2.Q4_K_M.gguf", max_new_tokens = 350)
+```
+
+A detailed list of parameters can be found here: https://github.com/marella/ctransformers
+
+## 3. Generating responses from prompts
+We first construct our prompt and ensure that it is in a particular format. After that, we call the prompt as a input to the LLM. And, wow, you will see your responses according to the prompt!
+
+```python
+example_prompt = """
+As an emergency dispatcher, you are tasked with classifying traffic incident reports into four severity levels to ensure appropriate emergency responses are dispatched. 
+
+Incident report: {}
+
+Here's the classification criteria:
+
+Life-Threatening Emergencies: Includes situations like cardiac arrest, unconsciousness, severe breathing difficulties, active seizures, major trauma, and stroke.
+Emergencies: Encompasses conditions such as head injuries, labor, bone fractures, and asthma attacks.
+Minor Emergencies: Covers incidents like cuts with bleeding, accidents resulting in bruising or swelling, and mild injuries.
+Non-Emergencies: Includes minor issues such as constipation and mild rashes.
+
+Given the details of a traffic incident report, determine its classification based on the above criteria.
+"""
+
+formatted_prompt = f"<s>[INST] {your_prompt} [/INST]"
+
+# Call LLM with prompt
+print(llm(format_prompt))
+```
