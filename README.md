@@ -134,7 +134,7 @@ For the generation of recommendations and instructions to call operators, we mad
 We first download the entire model from Hugging Face. https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
 
 ## 2. Initialising of Model
-Ensuring that the downloaded GGUF model is in the same directory as the script.py file, we initialise the model using a external library - ctransformers.
+Ensuring that the downloaded GGUF model is in the same directory as the script.py file, we initialise the model using an external library - ctransformers.
 
 ```python
 from ctransformers import AutoModelForCausalLM
@@ -146,7 +146,7 @@ llm = AutoModelForCausalLM.from_pretrained("mistral-7b-instruct-v0.2.Q4_K_M.gguf
 A detailed list of parameters can be found here: https://github.com/marella/ctransformers
 
 ## 3. Generating responses from prompts
-We first construct our prompt and ensure that it is in a particular format. After that, we call the prompt as a input to the LLM. And, wow, you will see your responses according to the prompt!
+We first construct our prompt and ensure that it is in a particular format. After that, we call the prompt as a input to the LLM.
 
 ```python
 example_prompt = """
@@ -164,7 +164,7 @@ Non-Emergencies: Includes minor issues such as constipation and mild rashes.
 Given the details of a traffic incident report, determine its classification based on the above criteria.
 """
 
-formatted_prompt = f"<s>[INST] {your_prompt} [/INST]"
+formatted_prompt = f"<s>[INST] {example_prompt} [/INST]"
 
 # Call LLM with prompt
 print(llm(format_prompt))
