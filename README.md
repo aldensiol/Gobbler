@@ -54,7 +54,7 @@ Link for Checkpoint: <a href="https://huggingface.co/Zqbot1/Noah">Checkpoint</a>
 Link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama</a>
 
 ### step 2: Including API_KEY
-In order to run MapGenerator.py, and hence, Noah.py, you'll need an API_KEY. You can sign up to these API's FOR FREE via:
+In order to run MapGenerator.py, and hence, Noah.py, you'll need an API_KEY for the following services. You can sign up to these API's FOR FREE via:
 
 Geocoding: <a href="https://rapidapi.com/trueway/api/trueway-geocoding/">TrueWay Geocoding</a>
 
@@ -64,7 +64,7 @@ Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions
 
 Just head over to any of the links and click on "Sign Up", and you will see a "X-RapidAPI-Key" parameter that is now filled with your API_KEY.
 
-Once you have obtained your API_KEY, In your folder, create a .env file, according to the .env_example code given. Eg:
+Once you have obtained your API_KEY, in your folder, create a .env file, according to the .env_example code given. Eg:
 
 ```python
 API_KEY="YOUR_API_KEY_HERE"
