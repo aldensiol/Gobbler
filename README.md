@@ -15,23 +15,7 @@ Noah is an AI-powered call-operator assistant designed to monitor and analyze co
 Additionally, Noah utilizes natural language processing (NLP) and machine learning to assess accident severity and provide recommendations for incident response, facilitating quicker and more informed emergency responses. Furthermore, Noah can extract location data from calls to provide information about the nearest hospitals and police stations, including estimated travel times, enabling swift and appropriate action during emergencies.
 
 
-
-
-## How to Use Noah?
-
-For **Windows Users** only:
-Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
- to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
-
-1. Unzip Noah.zip.
-2. Run the final.exe. (If there are any warnings, select "Run anyway".)
-3. Enter your prompt.
-4. Once you are done, type "exit" to quit the application.
-
-An example of a prompt is: 
-A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are bodies blocking the roads. I see a lamp post with the number 123456.
-
-## How to download and use the Model **locally**/as a **Mac** User
+## How to download and use the Model **locally**
 
 Leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
 
@@ -47,13 +31,13 @@ pip install requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
-Ensure you download the Checkpoint (updated model) as well as the Llama model into the same directory as Noah.py.
+Ensure you download the DataExtractorLLM (updated model) as well as the Llama model into the same directory as Noah.py.
 
-Link for Checkpoint: <a href="https://huggingface.co/Zqbot1/Noah">Checkpoint</a>
+Download link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Gobbler/resolve/main/DataExtractorLLM.zip?download=true">DataExtractorLLM (2GB)</a>
 
-Link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama</a>
+Download link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama (4GB)</a>
 
-### step 2: Including API_KEY
+### Step 2: Including API_KEY
 In order to run MapGenerator.py, and hence, Noah.py, you'll need an API key for the following services. You can sign up to these API's FOR FREE via:
 
 Geocoding: <a href="https://rapidapi.com/trueway/api/trueway-geocoding/">TrueWay Geocoding</a>
@@ -62,9 +46,11 @@ Searching: <a href="https://rapidapi.com/alexanderxbx/api/maps-data">Maps Data</
 
 Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions2/">TrueWay Directions</a>
 
-Just head over to any of the links and click on "Sign Up", and you will see a "X-RapidAPI-Key" parameter that is now filled with your API key.
-You will also need to click on "Subscribe to Test" and choose the basic free version in order to start using your API key.
-Here, we have provided you with one such API key: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own.
+We have provided you with one such API key: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own. The .env file has been created and uploaded in this repo for ease of use.
+
+```python
+API_KEY = "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3"
+```
 
 Once you have obtained your API key, paste it into the .env file in your folder.
 
@@ -148,7 +134,7 @@ For the generation of recommendations and instructions to call operators, we mad
 We first download the entire model from Hugging Face. https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
 
 ## 2. Initialising of Model
-Ensuring that the downloaded GGUF model is in the same directory as the script.py file, we initialise the model using a external library - ctransformers.
+Ensuring that the downloaded GGUF model is in the same directory as the script.py file, we initialise the model using an external library - ctransformers.
 
 ```python
 from ctransformers import AutoModelForCausalLM
@@ -160,7 +146,7 @@ llm = AutoModelForCausalLM.from_pretrained("mistral-7b-instruct-v0.2.Q4_K_M.gguf
 A detailed list of parameters can be found here: https://github.com/marella/ctransformers
 
 ## 3. Generating responses from prompts
-We first construct our prompt and ensure that it is in a particular format. After that, we call the prompt as a input to the LLM. And, wow, you will see your responses according to the prompt!
+We first construct our prompt and ensure that it is in a particular format. After that, we call the prompt as a input to the LLM.
 
 ```python
 example_prompt = """
@@ -178,7 +164,7 @@ Non-Emergencies: Includes minor issues such as constipation and mild rashes.
 Given the details of a traffic incident report, determine its classification based on the above criteria.
 """
 
-formatted_prompt = f"<s>[INST] {your_prompt} [/INST]"
+formatted_prompt = f"<s>[INST] {example_prompt} [/INST]"
 
 # Call LLM with prompt
 print(llm(format_prompt))
