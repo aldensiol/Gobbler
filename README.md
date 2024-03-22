@@ -25,7 +25,7 @@ Ensure you have Python and the necessary libraries installed. You will need all 
 ```bash
 git clone https://github.com/aldensiol/Gobbler.git
 
-## cd into the folder
+## cd into the folder, create a new environment and activate it
 
 pip install -r requirements.txt
 ```
