@@ -47,9 +47,28 @@ pip install requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
-Ensure you download the Checkpoint (updated model) into the directory you want to code. You can find this checkpoint <a href="https://drive.google.com/drive/folders/13JDms4Q_2WaaCqvk36ySFbu7KssH3F4X?usp=drive_link">here.</a>
+Ensure you download the Checkpoint (updated model) as well as the Llama model into the directory you want to code.
 
-### Step 2: Loading the Model
+Link for Checkpoint: <a href="https://huggingface.co/Zqbot1/Noah">Checkpoint</a>
+
+Link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama</a>
+
+### step 2: Including API_KEY
+In order to run MapGenerator.py, and hence, Noah.py, you'll need an API_KEY. You can sign up to these API's FOR FREE via:
+
+Geocoding: <a href="https://rapidapi.com/trueway/api/trueway-geocoding/">TrueWay Geocoding</a>
+
+Searching: <a href="https://rapidapi.com/alexanderxbx/api/maps-data">Maps Data</a>
+
+Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions2/">TrueWay Directions</a>
+
+Once you have obtained your API_KEY, In your folder, create a .env file, according to the .env_example code given. Eg:
+
+```python
+API_KEY="YOUR_API_KEY_HERE"
+```
+
+### Step 3: Loading the Model
 By editing the final.py script, you can load the fine-tuned model directly using the Transformers library. Replace `your_model_path` with the actual path where the checkpoint:
 
 ```python
@@ -58,7 +77,7 @@ finetuned_model = T5ForConditionalGeneration.from_pretrained(last_checkpoint)
 tokenizer = T5Tokenizer.from_pretrained(last_checkpoint)
 ```
 
-### Step 3: Running Noah.py
+### Step 4: Running Noah.py
 Run the script, using
 ```bash
 python Noah.py
