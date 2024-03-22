@@ -45,7 +45,7 @@ Firefighter Engagement: Assess the necessity for firefighter presence.
 Provide concise instructions prioritizing public safety, emergency care, and traffic management."
 """
 while True:
-    user_prompt = input("\n\nPlease describe the traffic accident:\n\n")
+    user_prompt = input("\n\nPlease describe the traffic accident or type 'exit' to quit the application:\n\n")
 
     if user_prompt == "exit":
         exit()
