@@ -84,6 +84,9 @@ A severe explosion has occurred at the junction of Kent Ridge Road, near Nationa
 ### Step 4: Interpreting the Results
 The output will be your model's interpretation or response based on its fine-tuning. Analyze the results as needed for your application.
 
+### Step 5: Stopping the application
+Entering "exit" into the terminal when our model asks for a prompt will terminate the program.
+
 # Fine-Tuning Guide for Emergency Incident Extracting Model (how we trained our model)
 
 This is our guide on how we fine-tuned the "google/flan-t5-base" model for emergency incident reporting. Below is a generic sequence of events that outlines our fine-tuning process:
