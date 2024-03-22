@@ -47,7 +47,7 @@ pip install requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
-Ensure you download the Checkpoint (updated model) as well as the Llama model into the directory you want to code.
+Ensure you download the Checkpoint (updated model) as well as the Llama model into the same directory as Noah.py.
 
 Link for Checkpoint: <a href="https://huggingface.co/Zqbot1/Noah">Checkpoint</a>
 
@@ -70,22 +70,16 @@ Once you have obtained your API_KEY, in your folder, create a .env file, accordi
 API_KEY="YOUR_API_KEY_HERE"
 ```
 
-### Step 3: Loading the Model
-By editing the final.py script, you can load the fine-tuned model directly using the Transformers library. Replace `your_model_path` with the actual path where the checkpoint:
+### Step 3: Running Noah.py
+Open a terminal of your choice and navigate to the NCS folder directory. Run the following command:
 
-```python
-last_checkpoint = "your_last_checkpoint_path" # Replace this with the path to the fine-tuned model
-finetuned_model = T5ForConditionalGeneration.from_pretrained(last_checkpoint)
-tokenizer = T5Tokenizer.from_pretrained(last_checkpoint)
-```
-
-### Step 4: Running Noah.py
-Run the script, using
 ```bash
 python Noah.py
 ```
 
-When prompted via "Please describe the traffic accident:", input your incident report. For an example, you can use this: A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
+When prompted via "Please describe the traffic accident:", input your incident report. For an example, you can use this: 
+
+A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are fallen trees blocking the road and I see a lamp post with number 123456.
 
 ### Step 4: Interpreting the Results
 The output will be your model's interpretation or response based on its fine-tuning. Analyze the results as needed for your application.
