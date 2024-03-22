@@ -33,7 +33,7 @@ pip install requirements.txt
 ### Step 1.5: Installing Fine-Tuned model
 Ensure you download the Checkpoint (updated model) as well as the Llama model into the same directory as Noah.py.
 
-Link for Checkpoint: <a href="https://huggingface.co/Zqbot1/Noah">Checkpoint</a>
+Link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Noah">DataExtractorLLM</a>
 
 Link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama</a>
 
