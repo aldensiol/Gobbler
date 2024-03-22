@@ -27,7 +27,7 @@ git clone https://github.com/aldensiol/Gobbler.git
 
 ## cd into the folder
 
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
