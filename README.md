@@ -29,7 +29,7 @@ Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
 4. Once you are done, type "exit" to quit the application.
 
 An example of a prompt is: 
-A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
+A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are bodies blocking the roads. I see a lamp post with the number 123456.
 
 ## How to download and use the Model **locally**/as a **Mac** User
 
