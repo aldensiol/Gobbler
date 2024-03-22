@@ -18,6 +18,8 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 
 
 ## How to Use Noah?
+
+For **Windows Users** only:
 Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
  to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
 
@@ -29,52 +31,45 @@ Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
 An example of a prompt is: 
 A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
 
-## How to Use the Model as an External User
+## How to download and use the Model **locally**/as a **Mac** User
 
-As an external user, leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
+Leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
 
-### Step 1: Installing Dependencies
+### Step 1: Cloning Code from Git, and Installing Dependencies
 Ensure you have Python and the necessary libraries installed. You will need all the libraries within the requirements.txt file, which can be installed via pip:
 
 ```bash
+git clone https://github.com/aldensiol/Gobbler.git
+
+## cd into the folder
+
 pip install requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
-Ensure you download the Checkpoint (updated model) into any portion within your drive. Save the file path.
+Ensure you download the Checkpoint (updated model) into the directory you want to code. You can find this checkpoint <a href="https://drive.google.com/drive/folders/13JDms4Q_2WaaCqvk36ySFbu7KssH3F4X?usp=drive_link">here.</a>
 
 ### Step 2: Loading the Model
-You can load the fine-tuned model directly using the Transformers library. Replace `your_model_path` with the actual path where the fine-tuned model is hosted:
+By editing the final.py script, you can load the fine-tuned model directly using the Transformers library. Replace `your_model_path` with the actual path where the checkpoint:
 
 ```python
-from transformers import T5ForConditionalGeneration, T5Tokenizer
-
-model_path = "your_model_path" # Replace this with the path to the fine-tuned model
-model = T5ForConditionalGeneration.from_pretrained(model_path)
-tokenizer = T5Tokenizer.from_pretrained(model_path)
+last_checkpoint = "your_last_checkpoint_path" # Replace this with the path to the fine-tuned model
+finetuned_model = T5ForConditionalGeneration.from_pretrained(last_checkpoint)
+tokenizer = T5Tokenizer.from_pretrained(last_checkpoint)
 ```
 
-### Step 3: Preparing Your Input
-Prepare the text you want to analyze or process. Ensure it's in a format compatible with the model's expectations:
-
-```python
-text_to_process = "Your input text here"
-inputs = tokenizer(text_to_process, return_tensors="pt")
+### Step 3: Running Noah.py
+Run the script, using
+```bash
+python Noah.py
 ```
 
-### Step 4: Generating Predictions
-With the model and inputs ready, you can now generate predictions:
+When prompted via "Please describe the traffic accident:", input your incident report. For an example, you can use this: A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are five people seriously injured and lying on the ground.
 
-```python
-outputs = model.generate(**inputs)
-result = tokenizer.decode(outputs[0], skip_special_tokens=True)
-print(result)
-```
-
-### Step 5: Interpreting the Results
+### Step 4: Interpreting the Results
 The output will be your model's interpretation or response based on its fine-tuning. Analyze the results as needed for your application.
 
-# Fine-Tuning Guide for Emergency Incident Model
+# Fine-Tuning Guide for Emergency Incident Extracting Model (how we trained our model)
 
 This is our guide on how we fine-tuned the "google/flan-t5-base" model for emergency incident reporting. Below is a generic sequence of events that outlines our fine-tuning process:
 
