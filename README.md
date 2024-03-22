@@ -20,20 +20,24 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 Leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
 
 ### Step 1: Cloning Code from Git, and Installing Dependencies
-Ensure you have Python and the necessary libraries installed. You will need all the libraries within the requirements.txt file, which can be installed via pip:
+Ensure you have Python and the necessary libraries installed. If you do not have pip installed on your system, follow this guide to install it: https://pip.pypa.io/en/stable/installation/.
+
+You will need all the libraries within the requirements.txt file, which can be installed via pip:
 
 ```bash
 git clone https://github.com/aldensiol/Gobbler.git
 
-## cd into the folder, create a new environment and activate it
+## cd into the folder
 
-pip install -r requirements.txt
+pip install requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
 Ensure you download the DataExtractorLLM (updated model) as well as the Llama model into the same directory as Noah.py.
 
 Download link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Gobbler/resolve/main/DataExtractorLLM.zip?download=true">DataExtractorLLM (2GB)</a>
+
+* Make sure to unzip the folder and move it into the Gobbler folder with Noah.py.
 
 Download link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama (4GB)</a>
 
@@ -46,6 +50,7 @@ Searching: <a href="https://rapidapi.com/alexanderxbx/api/maps-data">Maps Data</
 
 Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions2/">TrueWay Directions</a>
 
+Ensure that you have subscribed to all three services above for your API key to work.
 We have provided you with one such API key: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own. The .env file has been created and uploaded in this repo for ease of use.
 
 ```python
