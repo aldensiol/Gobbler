@@ -54,7 +54,7 @@ Link for Checkpoint: <a href="https://huggingface.co/Zqbot1/Noah">Checkpoint</a>
 Link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama</a>
 
 ### step 2: Including API_KEY
-In order to run MapGenerator.py, and hence, Noah.py, you'll need an API_KEY for the following services. You can sign up to these API's FOR FREE via:
+In order to run MapGenerator.py, and hence, Noah.py, you'll need an API key for the following services. You can sign up to these API's FOR FREE via:
 
 Geocoding: <a href="https://rapidapi.com/trueway/api/trueway-geocoding/">TrueWay Geocoding</a>
 
@@ -62,15 +62,11 @@ Searching: <a href="https://rapidapi.com/alexanderxbx/api/maps-data">Maps Data</
 
 Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions2/">TrueWay Directions</a>
 
-Just head over to any of the links and click on "Sign Up", and you will see a "X-RapidAPI-Key" parameter that is now filled with your API_KEY.
-You will also need to click on "Subscribe to Test" and choose the basic free version in order to start using your API_KEY.
-Here, we have provided you with one such API_KEY: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own.
+Just head over to any of the links and click on "Sign Up", and you will see a "X-RapidAPI-Key" parameter that is now filled with your API key.
+You will also need to click on "Subscribe to Test" and choose the basic free version in order to start using your API key.
+Here, we have provided you with one such API key: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own.
 
-Once you have obtained your API_KEY, in your folder, create a .env file, according to the .env_example code given. Eg:
-
-```python
-API_KEY="YOUR_API_KEY_HERE"
-```
+Once you have obtained your API key, paste it into the .env file in your folder.
 
 ### Step 3: Running Noah.py
 Open a terminal of your choice and navigate to the NCS folder directory. Run the following command:
