@@ -46,7 +46,7 @@ Searching: <a href="https://rapidapi.com/alexanderxbx/api/maps-data">Maps Data</
 
 Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions2/">TrueWay Directions</a>
 
-In this case, we have provided you with one such API key: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own. The .env file has been created and uploaded in this repo for ease of use.
+We have provided you with one such API key: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own. The .env file has been created and uploaded in this repo for ease of use.
 
 ```python
 API_KEY = "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3"
