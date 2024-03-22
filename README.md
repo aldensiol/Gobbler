@@ -71,7 +71,7 @@ When prompted via "Please describe the traffic accident:", input your incident r
 A severe explosion has occurred near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are fallen trees blocking the road and I see a lamp post with number 123456.
 
 ### Step 4: Interpreting the Results
-The output will be your model's interpretation or response based on its fine-tuning. Analyze the results as needed for your application.
+The output will be your model's interpretation or response based on its fine-tuning. Analyze the results as needed for your application. Depending on your computer's GPU, it may take around 10 seconds ~ 5 minutes to generate the output!
 
 ### Step 5: Stopping the application
 Entering "exit" into the terminal when our model asks for a prompt will terminate the program.
