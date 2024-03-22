@@ -15,23 +15,7 @@ Noah is an AI-powered call-operator assistant designed to monitor and analyze co
 Additionally, Noah utilizes natural language processing (NLP) and machine learning to assess accident severity and provide recommendations for incident response, facilitating quicker and more informed emergency responses. Furthermore, Noah can extract location data from calls to provide information about the nearest hospitals and police stations, including estimated travel times, enabling swift and appropriate action during emergencies.
 
 
-
-
-## How to Use Noah?
-
-For **Windows Users** only:
-Simply click on this <a href="https://huggingface.co/Zqbot1/Noah">link</a>
- to download Noah from HuggingFace! Here are the steps to use Noah after you have successfully installed it:
-
-1. Unzip Noah.zip.
-2. Run the final.exe. (If there are any warnings, select "Run anyway".)
-3. Enter your prompt.
-4. Once you are done, type "exit" to quit the application.
-
-An example of a prompt is: 
-A severe explosion has occurred at the junction of Kent Ridge Road, near National University of Singapore. A gas tanker, after colliding with a sedan, has exploded, resulting in a massive fireball and subsequent fires spreading to nearby buildings and vehicles. There are bodies blocking the roads. I see a lamp post with the number 123456.
-
-## How to download and use the Model **locally**/as a **Mac** User
+## How to download and use the Model **locally**
 
 Leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
 
