@@ -63,6 +63,8 @@ Searching: <a href="https://rapidapi.com/alexanderxbx/api/maps-data">Maps Data</
 Pathing/Directions: <a href="https://rapidapi.com/trueway/api/trueway-directions2/">TrueWay Directions</a>
 
 Just head over to any of the links and click on "Sign Up", and you will see a "X-RapidAPI-Key" parameter that is now filled with your API_KEY.
+You will also need to click on "Subscribe to Test" and choose the basic free version in order to start using your API_KEY.
+Here, we have provided you with one such API_KEY: "e1fe576586msh136ad9789393169p19e810jsnfbc6f35cbce3" in case you are unable to create your own.
 
 Once you have obtained your API_KEY, in your folder, create a .env file, according to the .env_example code given. Eg:
 
