@@ -143,4 +143,5 @@ def plotAllHTML(accident_loc):
         file_path = os.path.abspath(html_saved)
         webbrowser.open("file://" + file_path)
     
+# for testing
 # plotAllHTML("NUS")
