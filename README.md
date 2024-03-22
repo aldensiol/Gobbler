@@ -33,9 +33,9 @@ pip install requirements.txt
 ### Step 1.5: Installing Fine-Tuned model
 Ensure you download the Checkpoint (updated model) as well as the Llama model into the same directory as Noah.py.
 
-Link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Gobbler/resolve/main/DataExtractorLLM.zip?download=true">DataExtractorLLM</a>
+Download link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Gobbler/resolve/main/DataExtractorLLM.zip?download=true">DataExtractorLLM (2GB)</a>
 
-Link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama</a>
+Download link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama (4GB)</a>
 
 ### Step 2: Including API_KEY
 In order to run MapGenerator.py, and hence, Noah.py, you'll need an API key for the following services. You can sign up to these API's FOR FREE via:
