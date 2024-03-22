@@ -31,7 +31,7 @@ pip install requirements.txt
 ```
 
 ### Step 1.5: Installing Fine-Tuned model
-Ensure you download the Checkpoint (updated model) as well as the Llama model into the same directory as Noah.py.
+Ensure you download the DataExtractorLLM (updated model) as well as the Llama model into the same directory as Noah.py.
 
 Download link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Gobbler/resolve/main/DataExtractorLLM.zip?download=true">DataExtractorLLM (2GB)</a>
 
