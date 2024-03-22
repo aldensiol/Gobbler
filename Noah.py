@@ -59,9 +59,9 @@ while True:
 
     # Parsing the initial string to correctly format it
     parsed_report_correct = parse_report(answer, fields)
-
-    # For testing purposes:
+    
     print(parsed_report_correct)
+    print("\n")
 
     modified_string = parsed_report_correct.replace('\n', ' ')
 
