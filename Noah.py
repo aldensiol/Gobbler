@@ -61,7 +61,7 @@ while True:
     parsed_report_correct = parse_report(answer, fields)
 
     # For testing purposes:
-    # print(parsed_report_correct)
+    print(parsed_report_correct)
 
     modified_string = parsed_report_correct.replace('\n', ' ')
 
