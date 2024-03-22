@@ -49,8 +49,6 @@ while True:
 
     if user_prompt == "exit":
         exit()
-    
-    print("\n\nGenerating suggested responses for the situation...\n")
 
     inputs = tokenizer(user_prompt, return_tensors="pt")
     outputs = finetuned_model.generate(**inputs, max_length=200, min_length=50, length_penalty=2.0, num_beams=4, early_stopping=True)
@@ -60,8 +58,10 @@ while True:
     # Parsing the initial string to correctly format it
     parsed_report_correct = parse_report(answer, fields)
     
+    print("\n\n")
     print(parsed_report_correct)
-    print("\n")
+
+    print("\nGenerating suggested responses for the situation...\n")
 
     modified_string = parsed_report_correct.replace('\n', ' ')
 
@@ -71,4 +71,3 @@ while True:
                                             max_new_tokens = 350)
 
     prompt_llm(modified_string, llm)
-
